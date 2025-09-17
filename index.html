@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JC PARABELLUM | Diseñador Web Profesional</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0e0e0e;
+      color: #f5f5f5;
+    }
+
+    /* ================= Header Premium ================= */
+    header {
+      text-align: center;
+      padding: 80px 20px;
+      background: radial-gradient(circle at center, #1a1a1a, #0d0d0d);
+      position: relative;
+    }
+
+    header img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 4px solid #ffd369;
+      box-shadow: 0 8px 25px rgba(255, 213, 105, 0.6);
+      margin-bottom: 25px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      background: linear-gradient(45deg, #ffd369, #ff6b6b);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7), 0 0 6px rgba(255,255,255,0.2);
+    }
+
+    header p {
+      font-size: 1.4rem;
+      color: #fff;
+      text-shadow: 1px 1px 6px rgba(0,0,0,0.5);
+    }
+
+    /* ================= Portafolio Premium ================= */
+    .portafolio {
+      padding: 60px 20px;
+      text-align: center;
+      background: #111;
+    }
+    .portafolio h2 {
+      font-size: 2.5rem;
+      margin-bottom: 50px;
+      background: linear-gradient(90deg, #ffd369, #ff6b6b);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 1px 1px 6px rgba(0,0,0,0.6);
+    }
+
+    .tarjetas {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .tarjeta {
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.7), 0 0 15px rgba(255,213,105,0.2);
+      transition: transform 0.4s, box-shadow 0.4s;
+      background: linear-gradient(145deg, #1c1c1c, #2a2a2a);
+      border: 2px solid rgba(255,213,105,0.2);
+    }
+    .tarjeta:hover {
+      transform: scale(1.07);
+      box-shadow: 0 15px 40px rgba(0,0,0,0.9), 0 0 25px rgba(255,213,105,0.5);
+    }
+
+    .tarjeta img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      transition: transform 0.4s;
+    }
+    .tarjeta:hover img { transform: scale(1.05); }
+
+    .tarjeta .contenido {
+      padding: 25px;
+    }
+    .tarjeta h3 {
+      margin: 0 0 12px;
+      font-size: 1.5rem;
+      color: #ffd369;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+    }
+    .tarjeta p {
+      font-size: 1rem;
+      margin-bottom: 18px;
+      color: #ccc;
+    }
+    .tarjeta a {
+      display: inline-block;
+      padding: 12px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #fff;
+      background: linear-gradient(45deg, #e94560, #ff6b6b);
+      box-shadow: 0 4px 12px rgba(233,69,96,0.4);
+      transition: 0.3s;
+    }
+    .tarjeta a:hover {
+      background: linear-gradient(45deg, #d7263d, #ff4b4b);
+      box-shadow: 0 6px 20px rgba(215,38,61,0.6);
+    }
+
+    /* ================= Footer ================= */
+    footer {
+      background: linear-gradient(120deg, #111, #1c1c1c);
+      color: #ccc;
+      text-align: center;
+      padding: 50px 20px;
+      margin-top: 50px;
+    }
+    footer h3 { margin-bottom: 25px; color: #ffd369; }
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+    .social-links a {
+      color: #ccc;
+      font-size: 1.6rem;
+      transition: all 0.4s;
+    }
+    .social-links a:hover {
+      color: #ffd369;
+      text-shadow: 0 0 8px #ffd369, 0 0 18px #ffd369;
+    }
+    footer p { margin-top:25px; color:#aaa; font-size:0.9rem; }
+  </style>
+</head>
+<body>
+
+  <header>
+    
+    <h1>Hola, soy JC PARABELLUM</h1>
+    <p>Diseño páginas web modernas y profesionales para negocios en crecimiento</p>
+  </header>
+
+  <section class="portafolio">
+    <h2>Dale Clic al Portafolio</h2>
+    <div class="tarjetas">
+      <div class="tarjeta">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="Restaurante">
+        <div class="contenido">
+          <h3>🍴 Restaurante</h3>
+          <p>Menús digitales, reservas y pedidos online.</p>
+          <a href="restaurante.html">Ver Demo</a>
+        </div>
+      </div>
+
+    
+
+     
+
+      <div class="tarjeta">
+        <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f" alt="Abogado">
+        <div class="contenido">
+          <h3>⚖️ Abogado</h3>
+          <p>Servicios legales con contacto directo.</p>
+          <a href="abogado.html">Ver Demo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <h3> Conéctate conmigo  JC PARABELLUM</h3>
+    <div class="social-links">
+      <a href="mailto:vieranashnatej@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://wa.me/51938239047" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="https://www.facebook.com/share/16F5W8txf4/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.instagram.com/j.parabellum?igsh=MTFyNnQ0c2tvNnFrOQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/jhan-viera-nashnate-ab173122a" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://t.me/CJParabellum" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+    </div>
+    <p>© 2025 JC PARABELLUM | Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
